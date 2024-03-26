@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.05);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+  }
+  
+  a:active {
+    color: #b000ff;
+  }
+  
+  a:visited {
+    color: rgb(255 0 0);
+  }
+  
+  span:hover {
+    transform: scale(1.05);
+  }
+  
+  body {
+    width: 100%;
+    /* height: ; */
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(227 227 227 / 70%);
+    overflow-x: hidden;
+  }
+  
+  tr {
+    font-size: 20px;
+  }
+/* nav */
+
+nav {
+    position: absolute;
+    position: sticky;
+    z-index: 100011111;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5vw;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  }
+
+
+nav .nav-ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    max-width: 550px;
+}
+nav .nav-ul li {
+    width: 40%;
+    list-style: none;
+    color: #dadbdd;
+    font-weight: 600;
+    text-align: center;
+}
+  
+nav .nav-ul li a {
+    color: rgba(0, 0, 0, 0.716);
+}
+
+#first {
+    position: absolute;
+    left: 26px;
+    font-family: '华文行楷';
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #dadbdd;
+    margin: 4px;
+}
+
+.burger{
+    display: none;  
+}
+
+
+
+
+/* head */
+
+.head {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+  }
+
+/*  */
+
+.content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    margin-top: 100px
+}
+
+.content p {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+  .contentA>.title {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contentA>.you>span {
+    color: black;
+    font-size: 40px;
+  }
+  
+  .contentA>.you>p {
+    margin: auto;
+    width: 90%;
+    text-align: start !important;
+    text-indent: 2em !important;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  .contentA>.kong {
+    height: 10px;
+  }
+  
+  .contentA>.img {
+    display: inline-block;
+    width: 45%;
+  }
+  
+  .contentA>.img img {
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .contentA>.you {
+    float: right;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  
+  .contentA>.you>.totoro12{
+    width: 90%;
+  }
+  
+  .contentA>.you>.totoro12>img {
+    width: 24%;
+  }
+
+  /*  */
+
+#base {
+    padding: 30px;
+    margin-top: 60px;
+  }
+  
+  
+  #base span {
+    font-size: 30px;
+    color: rgb(60, 85, 94);
+    font-family: 翩翩体-简;
+    margin-top: 20px;
+  }
+  
+  #base table {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* 角色介绍 */
+  .shell{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    top: 200px;
+    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.box{
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    border: 10px solid #fff;
+    background-color: #fff;
+}
+.box>img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    transition: .5s;
+}
+.box>span{
+    font: 200 45px '优设标题黑';
+    text-align: center;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    flex-basis: 10%;
+}
+.box:hover>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* s */
+
+
+.big_div_002 {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .big_div_002 .kong{
+    height: 50px;
+  }
+  
+  .big_div_002 .title {
+    position: relative;
+    top: 25px;
+    font-size: 35px;
+  }
+  
+  .box-left {
+    position: absolute;
+    width: 15%;
+    left: 100px;
+    top: -40px;
+    margin-top: 50px !important;
+    box-sizing: border-box;
+  }
+  
+.box-left img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(220, 156, 133);
+    width: 100%;
+    height: 268px;
+  }
+  
+  .box-right span {
+    color: black;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .box-right {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 65%;
+  }
+  
+  .box-right p {
+    margin-left: 15px !important;
+    width: 90%;
+    text-indent: 2em;
+    text-align: start;
+    font-size: 17px !important;
+    font-family: 'totoro';
+    color: black;
+    margin-top: 35px !important;
+  }
+  
+  .small-box {
+    border: 1px solid rgb(210, 210, 210);
+    position: relative;
+    width: 90%;
+    height: 340px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px rgb(9 75 82 / 50%);
+  }
+  
+  .small-box:hover {
+    scale: 1.01;
+  }
+
+  /*  */
+
+  #plot {
+    padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  
+  #plot p {
+    width: 90%;
+    text-indent: 2em;
+    text-align: start;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+  }
+  
+  #plot div {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  #plot div img {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0 0 0 / 70%);
+  }
+
+  .big_div_003{
+    display: none;
+  }
